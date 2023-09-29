@@ -1,0 +1,235 @@
+     <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Your Programming Tutorial Website</title>
+          <link rel="stylesheet" href="styles.css" />
+          <!-- Link to your CSS file -->
+          <style>
+            /* Reset some default styles to ensure consistency */
+            body,
+            h1,
+            h2,
+            h3,
+            p,
+            ul,
+            li,
+            pre,
+            code {
+              margin: 0;
+              padding: 0;
+            }
+      
+            /* Define a common font for the entire page */
+            body {
+              font-family: Arial, sans-serif;
+              background-color: #f4f4f4;
+            }
+      
+            /* Navigation Bar Styles */
+            .navbar {
+              background-color: #333;
+              color: white;
+              height: 60px;
+              overflow: hidden;
+            }
+      
+            .navbar ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+      
+            .navbar li {
+              float: left;
+              margin-right: 15px;
+            }
+      
+            .navbar a {
+              font-weight: 800;
+              display: block;
+              color: white;
+              text-align: center;
+              text-decoration: none;
+              padding: 20px 15px;
+              transition: background-color 0.3s;
+            }
+      
+            .navbar a:hover {
+              background-color: #555;
+            }
+      
+            /* Sidebar Styles */
+            .sidebar {
+              background-color: #a7c0bc;
+              color: white;
+              width: 120px;
+              float: left;
+              padding: 20px;
+            }
+      
+            .sidebar ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+      
+            .sidebar li {
+              margin-bottom: 10px;
+            }
+      
+            .sidebar a {
+              text-decoration: none;
+              color: white;
+              font-weight: 800;
+              display: block;
+              padding: 8px 0;
+            }
+      
+            .sidebar a:hover {
+              background-color: #555;
+            }
+      
+            /* Main Content Styles */
+            .content {
+              margin-left: 280px;
+              padding: 20px;
+            }
+      
+            /* Section Header Styles */
+            .section-header {
+              font-size: 24px;
+              margin-bottom: 20px;
+            }
+      
+            /* Code Example Styles */
+            .code-example {
+              background-color: #fff;
+              border: 1px solid #ccc;
+              padding: 20px;
+              border-radius: 5px;
+            }
+      
+            .code-example pre {
+              white-space: pre-wrap;
+            }
+      
+            /* Search Field Styles */
+            .search {
+              background-color: #fff;
+              padding: 20px;
+              border-radius: 5px;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+      
+            /* Footer Styles */
+            footer {
+              background-color: #333;
+              color: white;
+              text-align: center;
+              padding: 10px 0;
+            }
+      
+            /* Style the dropdown menu */
+            .dropdown {
+              position: relative;
+            }
+      
+            .dropdown .submenu {
+              display: none;
+              position: absolute;
+              top: 100%;
+              left: 0;
+              background-color: #333;
+              padding: 10px;
+              list-style: none;
+            }
+      
+            .dropdown:hover .submenu {
+              display: block;
+            }
+      
+            /* Style submenu links */
+            .dropdown .submenu li {
+              margin-bottom: 10px;
+            }
+      
+            .dropdown .submenu a {
+              color: white;
+              text-decoration: none;
+              display: block;
+              padding: 5px 0;
+            }
+      
+            .dropdown .submenu a:hover {
+              text-decoration: underline;
+            }
+          </style>
+        </head>
+        <body>
+          <!-- Navigation Bar -->
+          <nav class="navbar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">SQL</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">Java</a></li>
+              <li><a href="#">PHP</a></li>
+              <li><a href="#">C++</a></li>
+              <li><a href="#">C#</a></li>
+              <li><a href="#">React</a></li>
+            </ul>
+          </nav>
+      
+          <aside class="sidebar">
+            <ul>
+              <li><a href="#">Getting Started</a></li>
+              <li><a href="login.html">Basics</a></li>
+              <li><a href="#">Intermediate</a></li>
+              <li><a href="#">Advanced</a></li>
+              <li class="dropdown">
+                <a href="#">Frameworks</a>
+                <ul class="submenu">
+                  <li><a href="#">React</a></li>
+                  <li><a href="#">Angular</a></li>
+                  <li><a href="#">Vue</a></li>
+                  <!-- Add more framework subcategories here -->
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#">Libraries</a>
+                <ul class="submenu">
+                  <li><a href="#">jQuery</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">Django</a></li>
+                  <!-- Add more library subcategories here -->
+                </ul>
+              </li>
+              <li><a href="#">Projects</a></li>
+            </ul>
+          </aside>
+      
+          <!-- Main Content -->
+          <main class="content">
+            <section class="intro">
+              <h1>Learn to Code</h1>
+              <p>With the world's largest web developer site.</p>
+            </section>
+      
+            <section class="search">
+              <h2>Search Field</h2>
+              <!-- Add your search field code here -->
+            </section>
+      
+            <!-- Add your programming language content sections here -->
+          </main>
+        </body>
+      </html>
+      
+    </main>
+  </body>
+</html>
